@@ -1,5 +1,11 @@
 *** READ ME ***
 
+
+Discussion:
+
+		I tried implementing symmetric public key exchange protocol. In this model, there exists a node that shares connection with several nodes and acts 
+	as the middle node to setup connection between those nodes upon request. In this example, the middle node is the server and client nodes are added subsequently. All the client nodes have connection to the server node. If any client node wishes to talk to another client node, it sends a request to the server node. The server node shares its secret key between him and the requested node with the requesting node.
+
 I. How to run the program
 
 	1. run the server first
